@@ -1,0 +1,174 @@
+@media (max-width: 1366px) {
+}  
+@media (min-width: 1371px){
+
+}
+@media (min-width: 1200px){
+
+}
+@media (max-width: 1279px) {
+    
+}
+
+@media (max-width: 1199px) {
+    .care-service-banner .top-care-service-content {
+        left: 80px;
+        width: 35%;
+        max-width: 400px;
+        padding-top: 200px;
+        padding-left: 50px;
+    }
+    .banner-image .layer-2 {
+        width: 1100px;
+    }
+    .banner-image {
+        min-height: 625px;
+
+    }
+    .doctor-list-title .title {
+        font-size: 35px;
+    }
+    .content__row {
+        box-shadow: 10px 14px 30px #CCD6EF;
+    }
+       
+}
+@media (max-width: 991px) {
+    .care-service-banner .top-care-service-content {
+        left: 20px;
+        width: 35%;
+        max-width: 400px; 
+        position: absolute;
+        z-index: 2;
+        bottom: 28%;
+    }
+    .banner-image .layer-2 {
+        width: 900px;
+    }
+    .banner-image {
+        min-height: 625px;
+
+    }
+    .doctor-list-title .title {
+        font-size: 30px;
+    }
+    .row__picture {
+        width: 110%;
+    }
+    .row__title h2 {
+        font-size: 25px; 
+    }
+    .info__decription{
+        height: 90px;
+        overflow-y: scroll;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 850px) {
+    .care-service-banner .top-care-service-content {
+        left: 20px;
+        width: 65%;
+        max-width: 800px;
+        position: absolute;
+        z-index: 2;
+        bottom: 45%;
+    }
+}
+@media (max-width: 767px) {
+    .care-service-banner .top-care-service-content {
+        left: 20px;
+        width: 90%;
+        position: absolute;
+        z-index: 2;
+        bottom: 50%;
+    }
+    .filter__fill {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    .filter__fill select {
+        width: 150px;   
+    }
+    .content .container {
+        margin: 0;
+    }
+    .content .nav-links {
+        width: 90vw;
+    }
+    .row__title h2 {
+        font-size: 20px;
+    }
+    .info__decription{
+        height: 70px;
+        overflow-y: scroll;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 575px) {
+    .banner-image .layer-2 {
+        width: 150vw;
+    }
+    .search .input-group {
+        width: 90vw;
+    }
+    .media-body{
+        width: 90vw;
+    }
+}
+@media (max-width: 700px) {
+    .content__row{
+        flex-direction: column;
+    }
+    .row__picture {
+        width: 100%;
+    }
+    .info__button {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width: 500px) {
+    .care-service-banner .top-care-service-content {
+        left: 10px;
+        width: 90%;
+        position: absolute;
+        z-index: 2;
+        bottom: 40%;
+    }
+    .doctor-list-title .title {
+        font-size: 25px;
+    }
+    .covid-vaccinated {
+        width: 80vw;
+    }
+    .info__decription{
+        height: 100px;
+        overflow-y: scroll;
+        margin-bottom: 10px;
+    }
+
+}
+@media (max-width: 414px) {
+    .media-body {
+        width: fit-content;
+    }
+    .care-service-banner .top-care-service-content {
+        left: 10px;
+        width: 90%;
+        position: absolute;
+        z-index: 2;
+        bottom: 35%;
+    }
+    .covid-vaccinated {
+        width: 90vw;
+        margin-left: -35px;
+    }
+    .filter__location {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+
+    }
+}

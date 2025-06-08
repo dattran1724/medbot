@@ -1,0 +1,220 @@
+*,
+body {
+  margin: 0px;
+  padding: 0px;
+  color: var(--blue-color-c);
+}
+a {
+  text-decoration: none;
+  color: var(--blue-color-c);
+}
+/* a:hover {
+  color: #ffffff;
+} */
+:root {
+  --blue-color-a: #3a7ff7;
+  --blue-color-b: #13dbfc;
+  --purple-color: #8932df;
+  --white-color: #ffffff;
+  --green-color: #1dcbb6;
+  --blue-color-c: #111c63;
+}
+.button-purple {
+  background-color: var(--purple-color);
+  border: 0;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: var(--white-color);
+  height: 40px;
+  transition: all 0.5s;
+}
+.button-purple:hover {
+  background-color: var(--blue-color-c);
+  transition: all 0.3s;
+}
+
+.button-blue {
+  background-color: var(--blue-color-a);
+  border: 0;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: var(--white-color);
+  height: 40px;
+  transition: all 0.5s;
+}
+.button-blue:hover {
+  background-color: var(--green-color);
+  transition: all 0.3s;
+}
+.button-green {
+  background-color: var(--green-color);
+  border: 0;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: var(--white-color);
+  height: 40px;
+  transition: all 0.5s;
+}
+.separator-purple {
+  width: 15vw;
+  height: 5px;
+  background-color: var(--purple-color);
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  transition: all 0.5s ease-in-out;
+}
+
+/* -----------------------button-------------------- */
+.header {
+  position: relative;
+  z-index: 99;
+  overflow-x: hidden;
+}
+.nav-bar {
+  background-color: rgb(237, 255, 250);
+  align-items: center;
+  position: fixed;
+  top: 0;
+  /* overflow: hidden; */
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  /* background-color: var(--white-color); */
+  max-height: 80px;
+}
+.nav-bar .list-item .item .dropdown-item {
+  padding: 10px;
+
+}
+.nav-bar .logo {
+  height: 80px;
+  margin: 0 30px;
+}
+.nav-bar .logo img {
+  height: 100%;
+}
+.nav-bar .list-item {
+  right: 40px;
+  display: flex;
+  position: relative;
+  align-items: center ;
+  z-index: 2;
+  margin: 0 10px;
+}
+.nav-bar .list-item .item {
+  margin: 0 10px;
+}
+.nav-bar .list-item .item a {
+  padding: 20px;
+}
+.nav-bar .list-item .item a:hover {
+  background-color: var(--blue-color-a);
+  color: var(--white-color);
+  transition: all 0.4s ease-out;
+  border-radius: 40px;
+}
+.nav-bar .list-item .item .item-current {
+  background-color: var(--blue-color-a);
+  color: var(--white-color);
+  border-radius: 40px;
+}
+.nav-bar .item-icon {
+  height: 80px;
+}
+.nav-bar .icon {
+  display: none;
+  font-size: 20px;
+  cursor: pointer;
+  position: relative;
+  right: 20px;
+  padding: 0 40px;
+}
+.nav-overlay {
+  display: none;
+  height: 100vh;
+  width: 100vw;
+  left: 0;
+  top: 80px;
+  background-color: rgba(73, 72, 72, 0.3);
+  position: fixed;
+  z-index: 99;
+}
+
+@media screen and (max-width: 1200px) {
+  .nav-bar .list-item {
+    right: -100%;
+    margin: 0;
+  }
+  .nav-bar .icon {
+    display: block;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .nav-bar .responsive {
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    top: 80px;
+    width: 300px;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.9);
+    position: fixed;
+    z-index: 100;
+    transition: right 0.3s ease-in-out 0s;
+  }
+  .nav-bar .responsive .item {
+    margin: 5px 0;
+  }
+  .nav-bar .responsive .item {
+    padding: 20px;
+    width: 300px;
+  }
+}
+@media screen and (max-width: 620px) {
+  /* .nav-bar .icon{
+        position: relative;
+        right: 200px;
+    } */
+  .nav-bar .list-item {
+    flex-wrap: wrap;
+  }
+}
+.iframe-dangnhap {
+  top: -100%;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+
+  z-index: 50;
+  transition: all 0.3s ease-in-out;
+  /* display: none; */
+}
+.block-hide {
+  /* display: block; */
+  top: 150px;
+}
+.form-none {
+  left: -110%;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 51;
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+  /* display: none; */
+}
+.block-form {
+  /* display: block; */
+  left: 0;
+}
+.button-yellow {
+  background-color: var(--green-color);
+  border: 0;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: var(--white-color);
+  height: 40px;
+  transition: all 0.5s;
+}

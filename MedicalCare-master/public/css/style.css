@@ -1,0 +1,452 @@
+*,
+body {
+  margin: 0px;
+  padding: 0px;
+  color: var(--blue-color-c);
+  box-sizing: border-box;
+  /* overflow-y:hidden; */
+}
+a {
+  text-decoration: none;
+  color: var(--blue-color-c);
+}
+/* a:hover { 
+  color: #ffffff;
+} */
+:root {
+  --blue-color-a: #3a7ff7;
+  --blue-color-b: #13dbfc;
+  --purple-color: #8932df;
+  --white-color: #ffffff;
+  --green-color: #1dcbb6;
+  --blue-color-c: #111c63;
+}
+
+/* -----------------------button-------------------- */
+
+/* ---------------------CONTAINER-------------------- */
+
+
+.intro {
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.25),
+    rgba(255, 255, 255, 0.1)
+  );
+  padding: 45px 0;
+  color: var(--white-color);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .intro-bg {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+} */
+.intro-area {
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+.intro h1 {
+  color: var(--blue-color-c);
+}
+.intro .input-group {
+  height: 60px;
+}
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #dfd3d3;
+  box-shadow: none;
+}
+.intro .input-group-text {
+  border-radius: 20px;
+  background-color: white;
+}
+
+.intro .input-group .form-control {
+  border-left: 0;
+  border-right: 0;
+}
+.intro .input-group .form-control::placeholder {
+  opacity: 0.5;
+}
+.intro .search {
+  background-color: var(--blue-color-a);
+  color: #ffffff;
+}
+.intro .search a {
+  color: #ffffff;
+}
+
+.luachon {
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.1),
+    rgba(230, 230, 230, 0.9),
+    rgb(255, 255, 255)
+  );
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.luachon ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 70px;
+}
+.luachon ul li {
+  padding: 5px;
+  color: white;
+}
+.luachon a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+.luachon ul li img {
+  margin: 0px 45px;
+  width: 50px;
+  height: 50px;
+}
+/* ----------------------intro--------------------- */
+
+.chuyenkhoa {
+  /* margin-right: 70px;
+    margin-left: 70px; */
+  margin-top: 50px;
+  height: 600px;
+}
+.chuyenkhoa h1 {
+  color: var(--blue-color-c);
+  text-align: center;
+  margin: 50px 0;
+}
+.chuyenkhoa-item h3 {
+  color: var(--blue-color-c);
+  text-align: center;
+  font-size: 19px;
+}
+
+.chuyenkhoa-item img {
+  height: 200px;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 12px;
+}
+.chuyenkhoa-item {
+  margin: 0 10px;
+}
+.slick-prev {
+  left: -50px;
+}
+.slick-next {
+  right: -50px;
+}
+.slide-arrow {
+  text-align: center;
+  display: block;
+  position: absolute;
+  top: 40%;
+  background-color: rgb(132, 139, 139, 0.5);
+  color: #ffffff;
+  border: none;
+  z-index: 6;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.slide-arrow:hover {
+  background-color: rgb(49, 143, 143);
+}
+
+
+/* --------------------chuyenkhoa ------------------ */
+.giaiphap .list-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.giaiphap {
+  position: relative;
+  padding: 20px 0 80px;
+  z-index: 2;
+  background: #fff;
+  margin-top: -60px;
+  text-align: center;
+}
+.giaiphap .container h1 {
+  text-align: center;
+}
+.giaiphap .card {
+  margin: 0 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.giaiphap .bg {
+  position: absolute;
+  right: 0;
+
+  width: 50%;
+  z-index: 0;
+}
+.giaiphap h1 {
+  color: var(--blue-color-c);
+}
+.giaiphap .card .card-img-top {
+  width: 50%;
+  height: 50%;
+  margin: 10px auto;
+}
+.giaiphap .card .card-body {
+  height: 50%;
+  color: var(--blue-color-c);
+}
+/* --------------------------giaiphap------------------------ */
+.bacsi {
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 900px;
+}
+.bacsi h1 {
+  color: var(--blue-color-c);
+}
+.bacsi .card {
+  margin: 20px;
+  width: 18rem;
+  box-shadow: rgba(100, 100, 111, 0.4) 0px 15px 29px 0px;
+}
+.bacsi .group-button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-around;
+  bottom: 0;
+}
+.bacsi .card .card-body {
+  height: 30%;
+  padding: 10px 0;
+}
+.bacsi .card .card-title {
+  font-size: 16px;
+}
+.bacsi .card img {
+  width: 80%;
+}
+.bacsi .card .card-text {
+  opacity: 0.7;
+}
+.bacsi .container .row {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+/* --------------------------bacsi-------------------------- */
+.nhathuoc {
+  position: relative;
+  height: 58vw;
+  margin-top: 0;
+}
+.nhathuoc .imgage-bg {
+  position: absolute;
+  top: 0;
+}
+.nhathuoc .imgage-bg img {
+  width: 100vw;
+}
+.nhathuoc .imgage-shipper {
+  position: absolute;
+  top: 20;
+}
+.nhathuoc .imgage-shipper img {
+  width: 35vw;
+  height: calc(50vw / 1750 * 1080);
+  margin: 50px;
+  margin-top: calc(22vw / 1750 * 1080);
+}
+.nhathuoc .content {
+  position: absolute;
+  width: 40vw;
+  top: 17vw;
+  right: 3vw;
+}
+
+/* ----------------------------nhathuoc------------------------- */
+.trainghiem {
+  position: relative;
+}
+.trainghiem-list {
+  width: 100%;
+  position: relative;
+}
+.trainghiem__avatar img {
+  width: 100%;
+  height: 100%;
+}
+.trainghiem__avatar {
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+  border: 3px solid #ddd;
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 999;
+  transition: 0.3s;
+  overflow: hidden;
+}
+.trainghiem .iconRight {
+  position: absolute;
+  bottom: 30px;
+  right: 20px;
+}
+.trainghiem .iconLeft {
+  position: absolute;
+  top: 150px;
+  left: 20px;
+}
+.trainghiem__slide .p2,
+.trainghiem__slide .p1 {
+  color: #fff;
+}
+.trainghiem__name {
+  line-height: 1.5;
+}
+.trainghiem__cont {
+  position: relative;
+  text-align: center;
+  padding: 66px 44px 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-image: linear-gradient(
+    rgba(6, 80, 240, 0.25),
+    rgba(52, 8, 134, 0.1),
+    rgba(25, 23, 187, 0.2)
+  );
+}
+.trainghiem__item {
+  position: relative;
+  background: #fff;
+  border-radius: 5px;
+  /* height: 330px */
+}
+.trainghiem__col {
+  padding: 60px 15px 0 15px;
+}
+/* --------------------------------trainghiem----------------------  */
+.hotro {
+  height: 720px;
+  margin-top: 100px;
+}
+.hotro .bg {
+  position: absolute;
+  right: -20px;
+}
+.hotro .card {
+  width: 100%;
+  margin: 10px;
+  height: 300px;
+  box-shadow: rgba(100, 100, 111, 0.3) 0px 15px 45px 0px;
+}
+.hotro .card img {
+  width: 60%;
+  margin: 10px auto;
+}
+
+/* -------------------------------------hotro---------------------------- */
+.dangkytuvan {
+  margin-bottom: 50px;
+  background: url(https://cdn.jiohealth.com/jio-website/home-page/jio-website-v2.2/assets/images/new-press/wave-white.svg)
+    no-repeat top;
+  background-size: 100% auto;
+  padding-top: 10%;
+}
+.dangkytuvan h1 {
+  color: var(--blue-color-c);
+  padding-top: 30px;
+}
+.dangkytuvan .container {
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.dangkytuvan .form {
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+}
+.dangkytuvan .form div {
+  margin: 20px 0;
+}
+
+.dangkytuvan .form input,
+.dangkytuvan .form select {
+  border: 0;
+  height: 50px;
+  border-radius: 20px;
+  width: 100%;
+}
+.dangkytuvan .form textarea {
+  border: 0;
+  border-radius: 20px;
+  width: 100%;
+  height: 80px;
+}
+.dangkytuvan .form label {
+  width: 140px;
+  margin: 0 20px;
+  color: var(--blue-color-c);
+  font-size: 19px;
+}
+.form-row {
+  display: flex;
+  align-items: center;
+}
+.form-row .row-right {
+  width: calc(100% - 140px);
+}
+.dangkytuvan .title-input {
+  width: 140px;
+}
+.dangkytuvan .content-right {
+  max-width: 500px;
+}
+.dangkytuvan .content-right img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.dangkytuvan .content-left {
+  background-image: linear-gradient(
+    rgba(161, 173, 199, 0.25),
+    rgba(95, 91, 91, 0.1),
+    rgba(167, 151, 151, 0.2)
+  );
+  width: calc(100% - 500px);
+}
+.dangkytuvan .form .button {
+  display: flex;
+  justify-content: center;
+}
+.dangkytuvan .button-purple {
+  height: 50px;
+}
+/* ---------------------dangkytuvan------------------------ */
+.form-control {
+  height: auto;
+}

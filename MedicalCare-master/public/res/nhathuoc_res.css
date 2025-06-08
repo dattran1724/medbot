@@ -1,0 +1,39 @@
+@media (max-width: 1366px) {
+}  
+@media (min-width: 1371px){
+
+}
+
+@media (max-width: 1279px) {
+    
+}
+@media (min-width: 1200px){
+    
+    
+}
+@media (max-width: 1199px) {
+
+}
+@media (max-width: 991px) {
+    .slick-prev {
+        left:-20px;
+    }
+    .slick-next {
+        right: -20px;
+    }.search .input-group {
+        width: 90vw;
+    }
+}
+@media (max-width: 767px) {
+    
+}
+@media (max-width: 575px) {
+    
+    
+}
+@media (max-width: 500px) {
+
+}
+@media (max-width: 414px) {
+    
+}

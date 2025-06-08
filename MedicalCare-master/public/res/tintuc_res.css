@@ -1,0 +1,84 @@
+@media (max-width: 1366px) {
+}  
+@media (min-width: 1371px){
+
+}
+@media (min-width: 1200px){
+
+}
+@media (max-width: 1279px) {
+    .tintuc .tintuc-item {
+        align-items: center;
+        min-width: 350px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .tintuc-img {
+        margin: 0px 10px 0px 0;
+        width: 50%;
+
+    }
+       
+}
+@media (max-width: 991px) {
+    .tintuc .tintuc-slide{
+        width: 100%;
+    }
+    .tintuc .tintuc-list {
+        margin-top: 50px;
+        position: relative;
+        width: 90%;
+    }
+    .tintuc-img {
+        width: 40%;
+    }
+}
+@media (max-width: 850px) {
+
+}
+@media (max-width: 767px) {
+
+}
+@media (max-width: 575px) {
+    .slick-prev {
+        left: 0px;
+    }
+    .slick-next {
+        right: 0px;
+    }
+}
+@media (max-width: 700px) {
+    
+}
+@media (max-width: 550px) {
+    .tintuc .tintuc-item{
+        flex-direction: column;
+        width: 100%;
+        margin: 10 auto;
+        min-width: fit-content;
+    }
+    .tintuc-img {
+        width: 70%;
+    }
+    .tintuc .tintuc-text{
+        width: 70%;
+        margin-top: 10px;
+    }
+    .camnang .camnang-item {
+        height: fit-content;
+        flex-direction: column;
+    }
+    .camnang .camnang-image{
+        width: 100%;
+    }
+    .camnang .camnang-text {
+        margin: 20px;
+    }
+    .tintuc .tintuc-slide {
+        height: 50vw;
+    }
+}
+@media (max-width: 414px) {
+    
+}

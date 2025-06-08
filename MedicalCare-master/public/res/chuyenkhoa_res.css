@@ -1,0 +1,147 @@
+@media (max-width: 1366px) {
+}  
+@media (min-width: 1371px){
+    .bn-chuyenkhoa .care-service-banner {
+        min-height: calc(100vh - 82px);
+    }
+    
+    .bn-chuyenkhoa .banner-image .layer_2{
+        position: absolute;
+        bottom: 0;
+        right: 270px;
+        left: auto;
+        width: 500px;
+        height: auto;
+        max-height: none;   
+      }
+}
+
+@media (max-width: 1279px) {
+    
+}
+@media (min-width: 1200px){
+    .bn-chuyenkhoa .banner-image {
+        min-height: 690px;
+        position: relative;
+        width: 100%;
+    }
+    .d-xl-block {
+        display: block !important;
+    }
+    .bn-chuyenkhoa .banner-image .layer_2{
+        width: 500px;   
+    }
+
+    
+}
+@media (max-width: 1199px) {
+    .bn-chuyenkhoa .banner-image .layer_2 {
+        right: 16vw;
+        width: 41vw;
+    }
+    .bn-chuyenkhoa .care-service-banner .banner-image {
+        top: -3% ;
+    }
+    .cac-khoa {
+        grid-template-columns: calc(33% - 10px) calc(33% - 10px) calc(33% - 10px);
+    }
+    .bn-chuyenkhoa .care-service-banner .top-care-service-content {
+        left: 80px;
+        width: 35%;
+        max-width: 400px;
+        padding-top: 200px;
+        padding-left: 50px;
+    }
+    .doctor-list-title .title {
+        font-size: 35px;
+    }
+    .bn-chuyenkhoa .care-service-banner {
+        margin-top: -200px;
+    }
+}
+@media (max-width: 991px) {
+    .bn-chuyenkhoa .care-service-banner .banner-image {
+        top:-10vw;
+    }
+    .cac-khoa {
+        padding: -40px;
+    }
+    .bn-chuyenkhoa .care-service-banner .top-care-service-content {
+        left: 20px;
+        width: 45%;
+        max-width: 400px;
+        position: absolute;
+        z-index: 2;
+    }
+    .bn-chuyenkhoa .doctor-list-title .title {
+        font-size: 30px;
+    }
+}
+@media (max-width: 850px) {
+    .bn-chuyenkhoa .care-service-banner .top-care-service-content {
+        left: 20px;
+        width: 45%;
+        max-width: 800px;
+        position: absolute;
+        z-index: 2;
+        margin-top: -20px;
+    }
+}
+@media (max-width: 767px) {
+    .bn-chuyenkhoa .care-service-banner {
+        margin-bottom: 0;
+        z-index: 2;
+    }
+    .bn-chuyenkhoa .care-service-banner .top-care-service-content {
+        left: 20px;
+        width: 90%;
+        position: absolute;
+        z-index: 2;
+        margin-top: -50px;
+    }
+    .bn-chuyenkhoa .banner-image .layer_2{
+        right: 25vw;
+        width: 300px;
+        
+    }
+
+    .bn-chuyenkhoa .banner-image .layer_2{
+        right: 30vw;
+        
+    }
+    .cac-khoa {
+        grid-template-columns: calc(50% - 10px) calc(50% - 10px);
+    }
+}
+@media (max-width: 575px) {
+    .bn-chuyenkhoa .care-service-banner .top-care-service-content {
+        position: absolute;
+        width: 90%;
+    }
+    .bn-chuyenkhoa .banner-image .layer_2{
+        right: 20vw;
+        
+    }
+    .doctor-list-title .title {
+        font-size: 28px;
+    }
+    
+}
+@media (max-width: 500px) {
+    .bn-chuyenkhoa .care-service-banner .top-care-service-content { 
+        position: absolute;
+        width: 90%;
+    }
+    .cac-khoa {
+        grid-template-columns: calc(100% - 10px) ;
+    }
+    .bn-chuyenkhoa .care-service-banner .banner-image {
+        top: 0;
+    }
+}
+@media (max-width: 414px) {
+    .bn-chuyenkhoa .care-service-banner .top-care-service-content{
+        margin-top: -70px; 
+        left: -15px;
+    }
+}

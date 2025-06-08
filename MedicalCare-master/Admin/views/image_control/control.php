@@ -1,0 +1,4 @@
+<script>
+	CKFinder.start();
+</script>
+

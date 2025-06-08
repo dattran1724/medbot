@@ -1,0 +1,283 @@
+*,
+body {
+  margin: 0px;
+  padding: 0px;
+  color: var(--blue-color-c);
+}
+a {
+  text-decoration: none;
+  color: var(--blue-color-c);
+}
+/* a:hover {
+  color: #ffffff;
+} */
+:root {
+  --blue-color-a: #3a7ff7;
+  --blue-color-b: #13dbfc;
+  --purple-color: #8932df;
+  --white-color: #ffffff;
+  --green-color: #1dcbb6;
+  --blue-color-c: #111c63;
+}
+
+/* -----------------------button-------------------- */
+
+.mySlides {
+  display: none;
+  height: 100%;
+  width: 100%;
+}
+.mySlides img {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 12px;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 4s;
+}
+.fade:not(.show) {
+  opacity: 1;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.tintuc {
+  margin-top: 80px;
+}
+.tintuc::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 1095px;
+  background-image: url(https://cdn.jiohealth.com/jio-website/home-page/jio-website-v2.2/multi-clinic-bg-2.svg);
+  background-position: left bottom;
+  background-size: auto 94%;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.tintuc {
+  background-image: url(https://cdn.jiohealth.com/jio-website/home-page/jio-website-v2.2/multi-clinic-bg.svg);
+  margin-top: -100px;
+  padding-top: 130px;
+  margin-bottom: 70px;
+}
+.tintuc .container .row {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.tintuc .back-ground {
+  background-color: var(--white-color);
+  padding: 0 15px;
+  border-radius: 20px;
+  box-shadow: rgba(17, 12, 46, 0.1) 15px 48px 30px 0px;
+}
+.tintuc .tintuc-slide {
+  /* max-width: auto; */
+  position: relative;
+  margin: auto;
+  margin-top: 10px;
+  width: 60%;
+  height: 400px;
+}
+.tintuc .tintuc-list {
+  position: relative;
+  width: 40%;
+}
+.tintuc .tintuc-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0px;
+  margin-bottom: 15px;
+}
+.tintuc-img {
+  margin: 0px 10px 0px 0;
+  width: 50%;
+}
+.tintuc-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+.tintuc .tintuc-text {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.tintuc-text .tieude {
+  font-weight: 700;
+}
+.tintuc-text .mota {
+  font-weight: 300;
+  font-size: 13px;
+}
+.tintuc-text .xemthem {
+  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+}
+/* -------------------------tintuc------------------------------ */
+/* .slick-prev {
+  left: -50px;
+}
+.slick-next {
+  right: -50px;
+}
+.slide-arrow {
+  display: block;
+  position: absolute;
+  top: 40%;
+  background-color: rgb(132, 139, 139, 0.5);
+  color: #ffffff;
+  border: none;
+  z-index: 6;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.slide-arrow:hover {
+  background-color: rgb(132, 139, 139);
+} */
+
+.camnang {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.camnang .back-ground {
+  position: relative;
+}
+.camnang .back-ground::before {
+  content: "";
+  position: absolute;
+  background: url(https://cdn.jiohealth.com/jio-website/home-page/jio-website-v2.2/newest-articles-background.svg)
+    left top/100% 100% no-repeat;
+  top: 200px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  /* position: absolute; */
+}
+.camnang .camnang-slider .card-body {
+  height: fit-content;
+}
+.camnang .camnang-slider .slick-list {
+  height: fit-content;
+}
+.camnang .camnang-slider .card {
+  box-shadow: rgba(100, 100, 111, 0.3) 0px 15px 29px 0px;
+}
+.camnang .camnang-list {
+  margin-top: 50px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  /* min-width: 500px; */
+}
+.camnang .camnang-item {
+  display: flex;
+  height: 180px;
+  width: 100%;
+
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.3) 0px 15px 29px 0px;
+  background: var(--white-color);
+}
+.camnang .camnang-image {
+  width: 50%;
+  min-width: 200px;
+  margin-right: 20px;
+  padding: 15px;
+}
+.camnang .camnang-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.camnang .camnang-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.camnang .camnang-text .tag {
+  opacity: 0.7;
+  margin-bottom: 15px;
+}
+.camnang .camnang-text .tieude {
+  font-size: 18px;
+}
+.camnang .camnang-text .button {
+  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px;
+}

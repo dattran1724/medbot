@@ -1,0 +1,252 @@
+*,
+body {
+  margin: 0px;
+  padding: 0px;
+  color: var(--blue-color-c);
+}
+a {
+  text-decoration: none;
+  color: var(--blue-color-c);
+}
+/* a:hover {
+  color: #ffffff;
+} */
+:root {
+  --blue-color-a: #3a7ff7;
+  --blue-color-b: #13dbfc;
+  --purple-color: #8932df;
+  --white-color: #ffffff;
+  --green-color: #1dcbb6;
+  --blue-color-c: #111c63;
+}
+
+/* -----------------------button-------------------- */
+/* BUTTON */
+.button-custom {
+  width: 250px;
+  height: 70px;
+  color: #fff;
+  border-radius: 20px;
+  padding: 10px 25px;
+  font-family: "Lato", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+.join-button {
+  background: var(--purple-color);
+  border: none;
+  z-index: 1;
+}
+.join-button::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  color: #fff;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  background-color: var(--blue-color-a);
+  border-radius: 20px;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+.join-button:hover {
+  color: #fff;
+}
+.join-button:hover:after {
+  left: 0;
+  width: 100%;
+}
+.join-button:active {
+  top: 2px;
+}
+/* CARE SERVICE BLOCK */
+.banner-care-service {
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+.care-service-block {
+  margin-top: 200px;
+}
+.care-service-block-bg {
+  position: relative;
+}
+.care-service-block-bg:before {
+  content: "";
+  position: absolute;
+  background: url(https://cdn.jiohealth.com/jio-website/home-page/jio-website-v2.2/care-service-dt-clinic.svg)
+    left top/100% 100% no-repeat;
+  top: -560px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+/* choose service tab */
+.choose-service-tab {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto 0;
+  border-radius: 100px;
+  box-shadow: 0 20px 20px -20px #a5d7ff;
+  overflow: hidden;
+}
+.choose-service-tab::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.5;
+  border-radius: 100px;
+  background: linear-gradient(
+    340.06deg,
+    #fff 30%,
+    rgba(255, 255, 255, 0) 103.99%
+  );
+  backdrop-filter: blur(10px);
+  z-index: -1;
+}
+.service-tab {
+  backdrop-filter: blur(10px);
+  color: var(--blue-color-c);
+  font-size: 23px;
+  line-height: 26px;
+  text-align: center;
+  padding: 20px 15px;
+  border: none;
+  background-color: transparent;
+  outline: 0;
+  min-width: 240px;
+  border-radius: 100px;
+  white-space: nowrap;
+  width: 100%;
+}
+.choose-service-tab .slick-current {
+  background: linear-gradient(
+    340.06deg,
+    #fff 30%,
+    rgba(255, 255, 255, 0) 103.99%
+  );
+}
+.choose-service-tab .slick-track {
+  width: 550px;
+}
+
+/* --------------------------------------service list ----------------------------------*/
+.service-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -20px;
+  padding-top: 30px;
+}
+.service-item {
+  background-color: #fff;
+  box-shadow: 0 15px 10px -15px #b8d9ff;
+  border-radius: 30px;
+  position: relative;
+  padding: 10px;
+  color: var(--blue-color-c);
+  overflow: hidden;
+  width: 100%;
+}
+.item-title {
+  margin-top: 1.625rem;
+  margin-bottom: 0;
+}
+
+/* ------------------------------------------APP DOWNLOAD ------------------------------*/
+.app-download-block {
+  position: relative;
+  z-index: 1;
+  background-image: url(https://cdn.jiohealth.com/jio-website/home-page/jio-website-v2.2/down-load-app-bg.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 490px;
+  width: 100%;
+  padding-top: 195px;
+  margin-top: 0;
+}
+/* icon */
+.visual-care-icon {
+  position: absolute;
+  top: 140px;
+  right: 150px;
+}
+.doctor-care-icon {
+  position: absolute;
+  bottom: 0;
+  right: 330px;
+}
+.message-icon {
+  position: absolute;
+  bottom: 67px;
+  right: 630px;
+}
+/* -----------------------------download -------------------------------*/
+
+.content .content-text {
+  position: relative;
+  z-index: 2;
+  width: 45vw;
+}
+.content .content-img {
+  position: absolute;
+  z-index: -2;
+  top: 40px;
+  right: 0px;
+  bottom: 0;
+  background: url(https://cdn.jiohealth.com/jio-website/home-page/jio-website-v2.2/banner-care-service-right.svg);
+  width: 821px;
+  height: 571px;
+}
+.service-list-top {
+  display: grid;
+  grid-template-columns: calc(25% - 10px) calc(25% - 10px) calc(25% - 10px) calc(
+      25% - 10px
+    );
+  justify-items: stretch;
+  gap: 15px;
+  margin: 40px;
+}
+.top-care-service-content {
+  left: 80px;
+  top: auto;
+  width: 55%;
+  max-width: 550px;
+  padding-top: 60px;
+  bottom: 35%;
+  top: auto;
+  padding-left: 180px;
+}
+.doctor-list-title .title {
+  font-size: 42px;
+  line-height: 1.1;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  position: relative;
+  color: #111c63;
+  font-family: AvenirNext-Bold, sans-serif;
+  font-weight: 400 !important;
+  margin-top: 0;
+}
+.doctor-list-info {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 1.35;
+  color: #4a4a4a;
+  margin-bottom: 0;
+}

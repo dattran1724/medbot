@@ -1,0 +1,388 @@
+*,body {
+  margin: 0px;
+  padding: 0px;
+  color: var(--blue-color-c);
+}
+a {
+  text-decoration: none;
+  color: var(--blue-color-c);
+}
+.row__title a:hover {
+  color: #102e9e;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+:root {
+  --blue-color-a: #3a7ff7;
+  --blue-color-b: #13dbfc;
+  --purple-color: #8932df;
+  --white-color: #ffffff;
+  --green-color: #1dcbb6;
+  --blue-color-c: #111c63;
+}
+.hidden {
+  display: none;
+}
+
+/* -----------------------button-------------------- */
+.search {
+  display: flex;
+  width: fit-content;
+  margin: 0 auto;
+}
+.search .input-group {
+  height: 60px;
+  width: 500px;
+}
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #dfd3d3;
+  box-shadow: none;
+}
+.search .input-group-text {
+  border-radius: 20px;
+  background-color: white;
+}
+
+.search .input-group .form-control {
+  border-left: 0;
+  border-right: 0;
+}
+.search .input-group .form-control::placeholder {
+  opacity: 0.5;
+}
+.search .search {
+  background-color: var(--blue-color-a);
+  color: #ffffff;
+}
+.search .search a {
+  color: #ffffff;
+}
+
+/* -------------------------------search-------------------- */
+.care-service-background {
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-color: transparent;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  z-index: 0;
+}
+.media {
+  display: flex;
+  align-items: center;
+}
+.media-left {
+  display: flex;
+}
+.care-service-banner {
+  position: relative;
+  z-index: 1;
+}
+.care-service-banner .top-care-service-content {
+  top: auto;
+  width: 55%;
+  max-width: 550px;
+  padding-top: 50px;
+  position: absolute;
+  top: auto;
+  padding-left: 180px;
+}
+.care-service-banner {
+  margin-top: -70px;
+  margin-bottom: 0;
+  min-height: 0;
+}
+.doctor-list-title .title {
+  font-size: 42px;
+  line-height: 1.1;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  position: relative;
+  color: #111c63;
+  font-family: AvenirNext-Bold, sans-serif;
+  font-weight: 400 !important;
+  margin-top: 0;
+}
+.covid-vaccinated {
+  background: #e8f1ff;
+  border-radius: 100px;
+  width: 350px;
+  padding: 1px;
+}
+.doctor-list-info {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 1.35;
+  color: #4a4a4a;
+  margin-bottom: 0;
+}
+
+.banner-image {
+  min-height: 690px;
+  position: relative;
+  width: 100%;
+}
+
+.layer-1,
+.layer-3 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  max-height: none;
+}
+.layer-2 {
+  right: 0;
+  height: auto;
+  min-width: 0;
+  max-height: none;
+  width: 1440px;
+  left: 50%;
+  margin-left: -50%;
+}
+.banner-image .layer-2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: auto;
+  width: 90%;
+  height: auto;
+  max-height: none;
+}
+/* -----------------------------------banner-------------------------- */
+.filter__fill {
+  display: flex;
+}
+.filter__fill select {
+  width: 12%;
+  margin: 10px;
+}
+.filter-profesor {
+  margin-bottom: 30px;
+  margin-top: 80px;
+  position: relative;
+  z-index: 1;
+}
+.filter__location {
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.filter__location label {
+  background: var(--blue-color-a);
+  background-image: none;
+  outline: 0;
+  min-width: 100px;
+  box-shadow: 0 1px 2px #ccc !important;
+  border: 0px solid #eee;
+  margin-left: 3px;
+  margin-right: 3px;
+  color: #fff;
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.filter__fill {
+  margin-left: -5px;
+  margin-right: -5px;
+}
+.filter__fill select {
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 25%;
+  float: left;
+  margin: 0 10px;
+  height: 30px;
+  text-transform: uppercase;
+}
+.content {
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.content:before {
+  display: table;
+  content: " ";
+}
+.content__main {
+  width: 90%;
+  margin: 0 auto;
+}
+.content__row {
+  height: 250px;
+  display: flex;
+  height: fit-content;
+  margin-top: 40px;
+  border: 1px solid rgba(3, 3, 3, 0.1);
+  border-radius: 20px;
+  box-shadow: 10px 25px 60px #ccd6ef;
+}
+.row__info {
+  margin: 15px;
+}
+.row__picture {
+  max-width: 330px;
+  margin-bottom: 15px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row__picture img {
+  display: block;
+  max-width: 100%;
+  max-height: 250px;
+}
+.row__title a {
+  text-decoration: none;
+}
+.info__small {
+  font-size: smaller;
+  font-style: italic;
+}
+.info__decription {
+  margin-top: 10px;
+}
+.info__button {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 15px;
+}
+/* .btn {
+  padding: 6px 12px;
+  width: 150px;
+  height: 35px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+} */
+.btn--book {
+  background-color: #102e9e;
+  color: white;
+}
+.btn--detail {
+  background-color: #1691e2;
+  color: white;
+}
+/* -----------------------------------slider----------------------------- */
+.nav-links {
+  /* background: fixed; */
+  padding-top: 16px;
+  /* background-image: url(https://cdn.jiohealth.com/jio-website/home-page/jio-website-v2.2/multi-clinic-bg.svg); */
+}
+
+.tab-content--slider {
+  padding-bottom: 45px;
+}
+
+.tab-content--slider .slick-arrow {
+  display: none;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 0;
+  height: 0;
+  padding: 0;
+  position: absolute;
+  text-align: center;
+  bottom: -37px;
+  width: 40px;
+  line-height: 24px;
+  z-index: 99;
+  opacity: 0.7;
+}
+
+
+.tab-content--slider .slick-prev {
+  left: 50px;
+}
+
+.tab-content--slider .slick-next {
+  right: 50px;
+}
+.tab-info {
+  padding-bottom: 70px;
+}
+.tab-info__item {
+  border-bottom: 1px solid #d9e4e6;
+  display: block;
+  overflow: hidden;
+  padding: 14px 16px;
+}
+
+.tab-info__link {
+  color: #000;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 100%;
+  text-decoration: none;
+}
+
+.tab-info__link:hover {
+  color: #133881;
+}
+.pagnation-ul {
+  display: flex;
+  justify-content: center;
+}
+.pagnation-ul ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Cho phép các mục li nằm ngang cạnh nhau */
+.pagnation-ul li {
+  display: inline-block;
+  margin-right: 10px; /* Khoảng cách giữa các mục li */
+}
+
+/* Tạo đường viền và màu nền cho các liên kết */
+.pagnation-ul a {
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* Điều chỉnh màu sắc khi di chuột qua các liên kết */
+.pagnation-ul a:hover {
+  background-color: #ddd;
+}
+
+
+.insurance-info {background-color: rgba(248,248,248,1.00);
+  padding: 3px;
+  border: 0 solid black;
+}

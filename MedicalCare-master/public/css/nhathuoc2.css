@@ -1,0 +1,210 @@
+*,
+body {
+  margin: 0px;
+  padding: 0px;
+  color: var(--blue-color-c);
+}
+a {
+  text-decoration: none;
+  color: var(--blue-color-c);
+}
+/* a:hover {
+  color: #ffffff;
+} */
+:root {
+  --blue-color-a: #3a7ff7;
+  --blue-color-b: #13dbfc;
+  --purple-color: #8932df;
+  --white-color: #ffffff;
+  --green-color: #1dcbb6;
+  --blue-color-c: #111c63;
+}
+
+/* -----------------------button-------------------- */
+/* Nhà thuốc */
+/* Thực phẩm chức năng */
+.icon-img {
+  display: inline-block;
+  max-width: 50px;
+  max-height: 40px;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.card-img-overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 50px 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  transition: ease-in-out 0.25s;
+}
+.card-img-overlay:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.category-img-overlay:hover {
+  opacity: 0.2;
+  transition: all ease-in-out 0.25s;
+}
+.a-overlay .card {
+  position: relative;
+  max-width: 281px;
+  height: 160px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  margin: 0 auto 18px;
+}
+
+/* Nổi bật */
+
+/* .slick-slider .slick-prev {
+  left: -50px;
+}
+.slick-slider .slick-next {
+  right: -50px;
+}
+.slick-slider .slide-arrow {
+  display: block;
+  position: absolute;
+  top: 40%;
+  background-color: rgb(132, 139, 139, 0.5);
+  color: #ffffff;
+  border: none;
+  z-index: 6;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.slick-slider .slide-arrow:hover {
+  background-color: rgb(49, 143, 143);
+} */
+/* Giá */
+.unit-price {
+  font-size: larger;
+}
+/* Icon */
+.icons-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3px;
+  position: absolute;
+  bottom: 3px;
+  width: 100%;
+  padding: 0 1.25rem;
+  left: 0;
+}
+
+.icon {
+  width: 30px;
+  height: 28px;
+}
+.icon img {
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+}
+/* MUA THUỐC THEO TOA */
+#third .card:hover {
+  box-shadow: 1px 8px 20px grey;
+  transition: box-shadow 0.2s ease-in;
+}
+/* Button */
+
+.card-body .btn-card {
+  white-space: nowrap;
+  padding-left: 0;
+  padding-right: 0;
+  display: none;
+  font-size: 12px;
+  position: absolute;
+  bottom: 3px;
+  right: 5%;
+  width: 90%;
+  z-index: 1;
+}
+.card:hover .btn-card {
+  background-color: #194ccc;
+  color: white;
+  display: block;
+}
+.card:hover {
+  box-shadow: 2px 4px 10px 0 rgba(0, 0, 0, 0.3);
+}
+/* ---------------------search-------------------- */
+.search {
+  display: flex;
+  width: fit-content;
+  margin: 0 auto;
+}
+.search .input-group {
+  height: 40px;
+  width: 50vw;
+}
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #dfd3d3;
+  box-shadow: none;
+}
+.search .input-group-text {
+  border-radius: 20px;
+  background-color: white;
+}
+
+.search .input-group .form-control {
+  border-left: 0;
+  border-right: 0;
+}
+.search .input-group .form-control::placeholder {
+  opacity: 0.5;
+}
+.search .span-text {
+  background-color: var(--green-color);
+}
+.search .span-text a {
+  color: #fff;
+}
+.search-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  background-color: var(--blue-color-c);
+}
+.search-top .button-green img {
+  width: 30px;
+  height: 30px;
+}
+.search-top .button-green {
+  border-radius: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+}
+.search-top .btn-primary {
+  background: #fff;
+  border-radius: 100px;
+  padding: 5px 10px 5px 5px;
+  margin-left: 15px;
+  white-space: nowrap;
+}
+.fa-cart-plus {
+  color: #fff;
+  font-size: 23px;
+}
+.ng-star-inserted:hover {
+  color: black;
+}

@@ -1,0 +1,264 @@
+*,
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+  color: var(--blue-color-c);
+}
+a {
+  text-decoration: none;
+  color: var(--blue-color-c);
+}
+a:hover {
+  color: #ffffff;
+}
+:root {
+  --blue-color-a: #3a7ff7;
+  --blue-color-b: #13dbfc;
+  --purple-color: #8932df;
+  --white-color: #ffffff;
+  --green-color: #1dcbb6;
+  --blue-color-c: #111c63;
+}
+
+.page-link {
+  color: #000;
+  opacity: 0.7;
+}
+
+/* -----------------------button-------------------- */
+
+.box-search {
+  position: relative;
+  display: inline-block;
+}
+main {
+  /* background: url(https://cdn.jiohealth.com/jio-website/home-page/jio-website-v2.2/multi-clinic-bg-2.svg) no-repeat top;
+    background-size: 100% 90%; */
+}
+
+.chuyen-khoa {
+  background-image: url(https://cdn.jiohealth.com/jio-website/home-page/jio-website-v2.2/multi-clinic-bg.svg);
+  background-size: 100% 90%;
+  /* padding-bottom: 170px; */
+  background-repeat: no-repeat;
+}
+.chuyen-khoa .container {
+}
+
+.cac-khoa {
+  display: grid;
+  grid-template-columns: calc(25% - 10px) calc(25% - 10px) calc(25% - 10px) calc(
+      25% - 10px
+    );
+  justify-items: stretch;
+  gap: 15px;
+  margin: 40px;
+}
+.chuyen-khoa .khoa-item {
+  border-radius: 20px;
+  box-shadow: rgba(100, 100, 111, 0.3) 0px 15px 30px 0px;
+  /* background-image:  linear-gradient(90deg, rgb(200 231 228) 0%, rgb(214 226 243) 80%); */
+  margin: 10px;
+}
+.div-icon {
+  display: inline-block;
+  width: 110px;
+  height: 110px;
+  padding: 15px;
+  border-radius: 50%;
+  border: 5px solid #1692e3;
+  overflow: hidden;
+}
+.div-icon img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+.info-khoa h2 {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: black;
+}
+.khoa-item:hover .div-icon {
+  background-color: #1692e3;
+}
+.khoa-item:hover .div-icon img {
+  filter: brightness(0) invert(1);
+}
+
+/* --------------------------slider----------------------------------- */
+.bn-chuyenkhoa .care-service-background {
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-color: transparent;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  z-index: 0;
+}
+.bn-chuyenkhoa .care-service-banner {
+  position: relative;
+  z-index: 2;
+}
+.bn-chuyenkhoa .covid-vaccinated {
+  background: #e8f1ff;
+  border-radius: 100px;
+  width: 350px;
+  padding: 1px;
+}
+.bn-chuyenkhoa .doctor-list-info {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 1.35;
+  color: #4a4a4a;
+  margin-bottom: 0;
+}
+.bn-chuyenkhoa .care-service-banner .top-care-service-content {
+  top: auto;
+  width: 55%;
+  max-width: 550px;
+  padding-top: 50px;
+  position: absolute;
+  z-index: 2;
+  top: auto;
+  padding-left: 180px;
+}
+.bn-chuyenkhoa .doctor-list-title .title {
+  font-size: 42px;
+  line-height: 1.1;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  position: relative;
+  color: #111c63;
+  font-family: AvenirNext-Bold, sans-serif;
+  font-weight: 400 !important;
+  margin-top: 0;
+}
+
+.bn-chuyenkhoa .banner-image .layer_1,
+.bn-chuyenkhoa .banner-image .layer_3 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  max-height: none;
+}
+.bn-chuyenkhoa .care-service-banner .banner-image img {
+  max-height: calc(100vh + 80px);
+}
+.bn-chuyenkhoa .banner-image .layer_2 {
+  position: absolute;
+  bottom: 0;
+  right: 18vw;
+  left: auto;
+  /* width: 40vw; */
+  height: auto;
+  max-height: none;
+}
+.bn-chuyenkhoa .care-service-banner {
+  margin-top: -70px;
+  margin-bottom: 0;
+  min-height: 0;
+}
+.bn-chuyenkhoa .care-service-banner .banner-image {
+  right: 0;
+  top: 0px;
+  display: flex;
+  text-align: right;
+  align-items: flex-end;
+  float: right;
+}
+.bn-chuyenkhoa .care-service-banner .banner-image img {
+  max-height: 100vh;
+  max-width: 100vw;
+  float: right;
+}
+.bn-chuyenkhoa .banner-image {
+  min-height: 690px;
+  position: relative;
+  width: 100%;
+}
+
+/* ----------------------banner--------------------------------- */
+main {
+  margin-top: 80px;
+}
+.nav-links {
+  /* background: fixed; */
+  padding-top: 16px;
+  /* background-image: url(https://cdn.jiohealth.com/jio-website/home-page/jio-website-v2.2/multi-clinic-bg.svg); */
+}
+
+.tab-content--slider {
+  padding-bottom: 45px;
+}
+
+.tab-content--slider .slick-arrow {
+  display: none;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 0;
+  height: 0;
+  padding: 0;
+  position: absolute;
+  text-align: center;
+  bottom: -37px;
+  width: 40px;
+  line-height: 24px;
+  z-index: 99;
+  opacity: 0.7;
+}
+
+.tab-content--slider .slick-prev {
+  left: 50px;
+}
+
+.tab-content--slider .slick-next {
+  right: 50px;
+}
+
+.tab-info__item {
+  border-bottom: 1px solid #d9e4e6;
+  display: block;
+  overflow: hidden;
+  padding: 14px 16px;
+}
+
+.tab-info__link {
+  color: #000;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 100%;
+  text-decoration: none;
+}
+
+.tab-info__link:hover {
+  color: #133881;
+}
+.ck .view_limit {
+  max-height: 250px;
+}
+.ck .view_limit:before {
+ opacity: 1;
+}
+.ck .content__row {
+  background-color: #ffffff;
+  box-shadow: 0px 0px;
+}
+.chuyenkhoa-slide .div-icon {
+  width: 170px;
+  height: 170px;
+  
+}
